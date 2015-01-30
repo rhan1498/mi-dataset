@@ -1544,6 +1544,9 @@ class CgCpmEngCpmDataParticle(DataParticle):
                             param_name == CgCpmEngCpmParserDataParticleKey.CG_ENG_SBC_WDT:\
                             value = int(value, 0)
 
+                        if param_name == CgCpmEngCpmParserDataParticleKey.CG_ENG_MPIC_WAKE_CPM:
+                            value = int(float(value))
+
                         if param_name == CgCpmEngCpmParserDataParticleKey.CG_ENG_MPIC_GF_ENA:
                             value = int('0x'+value, 0)
 
