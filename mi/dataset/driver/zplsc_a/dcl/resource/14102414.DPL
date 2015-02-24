@@ -1,0 +1,534 @@
+Config for unit '55074' deployed 2014-10-24 14:25:47
+Version Major	3
+Version Minor	4
+Version Date	20140902   
+Unit Serial Number	55074      
+CPU	13762
+Parameter Version	2
+Instrument Type	AZFP
+DataOutput	FLASH
+SoundSpeed	1450.500000
+Acquisition Start:	Feb 29, 2012 10:11:22
+Number of phases	4
+Date span: Feb 29, 2012 10:11:22 - Feb 29, 2012 10:51:21
+---
+Phase 1
+Acquisition Period:	Feb 29, 2012 10:11:22 - Feb 29, 2012 10:26:21
+Duration	900 seconds	(0.0104 days)
+Phase Type	'NORMAL'
+Burst Interval	1 sec
+Pings Per Burst	1 pings
+Ping Period	1 sec
+Average Burst Pings	yes
+F1 Frequency    	38 Hz
+F1 Acquire Freq 	1 bool
+F1 Pulse Length 	300 us
+F1 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F1 Range Samples	528 smpl
+F1 Range Averaging Samples	1 smpl
+F1 LockOutIndex	0 index
+F1 Storage Format	0 (Log Data)
+F2 Frequency    	125 Hz
+F2 Acquire Freq 	1 bool
+F2 Pulse Length 	300 us
+F2 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F2 Range Samples	528 smpl
+F2 Range Averaging Samples	1 smpl
+F2 LockOutIndex	0 index
+F2 Storage Format	0 (Log Data)
+F3 Frequency    	200 Hz
+F3 Acquire Freq 	1 bool
+F3 Pulse Length 	300 us
+F3 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F3 Range Samples	528 smpl
+F3 Range Averaging Samples	1 smpl
+F3 LockOutIndex	0 index
+F3 Storage Format	0 (Log Data)
+F4 Frequency    	455 Hz
+F4 Acquire Freq 	1 bool
+F4 Pulse Length 	300 us
+F4 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F4 Range Samples	528 smpl
+F4 Range Averaging Samples	1 smpl
+F4 LockOutIndex	0 index
+F4 Storage Format	0 (Log Data)
+---
+Phase 2
+Acquisition Period:	Feb 29, 2012 10:26:22 - Feb 29, 2012 10:31:21
+Duration	300 seconds	(0.0035 days)
+Phase Type	'NORMAL'
+Burst Interval	1 sec
+Pings Per Burst	1 pings
+Ping Period	1 sec
+Average Burst Pings	yes
+F1 Frequency    	38 Hz
+F1 Acquire Freq 	1 bool
+F1 Pulse Length 	300 us
+F1 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F1 Range Samples	2757 smpl
+F1 Range Averaging Samples	1 smpl
+F1 LockOutIndex	0 index
+F1 Storage Format	0 (Log Data)
+F2 Frequency    	125 Hz
+F2 Acquire Freq 	1 bool
+F2 Pulse Length 	300 us
+F2 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F2 Range Samples	2757 smpl
+F2 Range Averaging Samples	1 smpl
+F2 LockOutIndex	0 index
+F2 Storage Format	0 (Log Data)
+F3 Frequency    	200 Hz
+F3 Acquire Freq 	1 bool
+F3 Pulse Length 	300 us
+F3 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F3 Range Samples	2757 smpl
+F3 Range Averaging Samples	1 smpl
+F3 LockOutIndex	0 index
+F3 Storage Format	0 (Log Data)
+F4 Frequency    	455 Hz
+F4 Acquire Freq 	1 bool
+F4 Pulse Length 	300 us
+F4 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F4 Range Samples	2757 smpl
+F4 Range Averaging Samples	1 smpl
+F4 LockOutIndex	0 index
+F4 Storage Format	0 (Log Data)
+---
+Phase 3
+Acquisition Period:	Feb 29, 2012 10:31:22 - Feb 29, 2012 10:41:21
+Duration	600 seconds	(0.0069 days)
+Phase Type	'NORMAL'
+Burst Interval	10 sec
+Pings Per Burst	9 pings
+Ping Period	1 sec
+Average Burst Pings	yes
+F1 Frequency    	38 Hz
+F1 Acquire Freq 	1 bool
+F1 Pulse Length 	300 us
+F1 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F1 Range Samples	529 smpl
+F1 Range Averaging Samples	1 smpl
+F1 LockOutIndex	0 index
+F1 Storage Format	1 (Avg Linear)
+F2 Frequency    	125 Hz
+F2 Acquire Freq 	1 bool
+F2 Pulse Length 	300 us
+F2 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F2 Range Samples	528 smpl
+F2 Range Averaging Samples	1 smpl
+F2 LockOutIndex	0 index
+F2 Storage Format	1 (Avg Linear)
+F3 Frequency    	200 Hz
+F3 Acquire Freq 	1 bool
+F3 Pulse Length 	300 us
+F3 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F3 Range Samples	528 smpl
+F3 Range Averaging Samples	1 smpl
+F3 LockOutIndex	0 index
+F3 Storage Format	1 (Avg Linear)
+F4 Frequency    	455 Hz
+F4 Acquire Freq 	1 bool
+F4 Pulse Length 	300 us
+F4 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F4 Range Samples	528 smpl
+F4 Range Averaging Samples	1 smpl
+F4 LockOutIndex	0 index
+F4 Storage Format	1 (Avg Linear)
+---
+Phase 4
+Acquisition Period:	Feb 29, 2012 10:41:22 - Continuous
+Duration	600 seconds	(0.0069 days)
+Phase Type	'NORMAL'
+Burst Interval	5 sec
+Pings Per Burst	1 pings
+Ping Period	5 sec
+Average Burst Pings	yes
+F1 Frequency    	38 Hz
+F1 Acquire Freq 	1 bool
+F1 Pulse Length 	300 us
+F1 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F1 Range Samples	9909 smpl
+F1 Range Averaging Samples	27 smpl
+F1 LockOutIndex	0 index
+F1 Storage Format	1 (Avg Linear)
+F2 Frequency    	125 Hz
+F2 Acquire Freq 	1 bool
+F2 Pulse Length 	300 us
+F2 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F2 Range Samples	9909 smpl
+F2 Range Averaging Samples	27 smpl
+F2 LockOutIndex	0 index
+F2 Storage Format	1 (Avg Linear)
+F3 Frequency    	200 Hz
+F3 Acquire Freq 	1 bool
+F3 Pulse Length 	300 us
+F3 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F3 Range Samples	9909 smpl
+F3 Range Averaging Samples	27 smpl
+F3 LockOutIndex	0 index
+F3 Storage Format	1 (Avg Linear)
+F4 Frequency    	455 Hz
+F4 Acquire Freq 	1 bool
+F4 Pulse Length 	300 us
+F4 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F4 Range Samples	9639 smpl
+F4 Range Averaging Samples	27 smpl
+F4 LockOutIndex	0 index
+F4 Storage Format	1 (Avg Linear)
+---------------------------------------
+Config for unit '55074' deployed 2014-10-24 14:36:57
+Version Major	3
+Version Minor	4
+Version Date	20140902   
+Unit Serial Number	55074      
+CPU	13762
+Parameter Version	2
+Instrument Type	AZFP
+DataOutput	FLASH
+SoundSpeed	1450.500000
+Acquisition Start:	Oct 24, 2014 14:36:32
+Number of phases	4
+Date span: Oct 24, 2014 14:36:32 - Oct 24, 2014 15:16:31
+---
+Phase 1
+Acquisition Period:	Oct 24, 2014 14:36:32 - Oct 24, 2014 14:51:31
+Duration	900 seconds	(0.0104 days)
+Phase Type	'NORMAL'
+Burst Interval	1 sec
+Pings Per Burst	1 pings
+Ping Period	1 sec
+Average Burst Pings	yes
+F1 Frequency    	38 Hz
+F1 Acquire Freq 	1 bool
+F1 Pulse Length 	300 us
+F1 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F1 Range Samples	528 smpl
+F1 Range Averaging Samples	1 smpl
+F1 LockOutIndex	0 index
+F1 Storage Format	0 (Log Data)
+F2 Frequency    	125 Hz
+F2 Acquire Freq 	1 bool
+F2 Pulse Length 	300 us
+F2 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F2 Range Samples	528 smpl
+F2 Range Averaging Samples	1 smpl
+F2 LockOutIndex	0 index
+F2 Storage Format	0 (Log Data)
+F3 Frequency    	200 Hz
+F3 Acquire Freq 	1 bool
+F3 Pulse Length 	300 us
+F3 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F3 Range Samples	528 smpl
+F3 Range Averaging Samples	1 smpl
+F3 LockOutIndex	0 index
+F3 Storage Format	0 (Log Data)
+F4 Frequency    	455 Hz
+F4 Acquire Freq 	1 bool
+F4 Pulse Length 	300 us
+F4 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F4 Range Samples	528 smpl
+F4 Range Averaging Samples	1 smpl
+F4 LockOutIndex	0 index
+F4 Storage Format	0 (Log Data)
+---
+Phase 2
+Acquisition Period:	Oct 24, 2014 14:51:32 - Oct 24, 2014 14:56:31
+Duration	300 seconds	(0.0035 days)
+Phase Type	'NORMAL'
+Burst Interval	1 sec
+Pings Per Burst	1 pings
+Ping Period	1 sec
+Average Burst Pings	yes
+F1 Frequency    	38 Hz
+F1 Acquire Freq 	1 bool
+F1 Pulse Length 	300 us
+F1 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F1 Range Samples	2757 smpl
+F1 Range Averaging Samples	1 smpl
+F1 LockOutIndex	0 index
+F1 Storage Format	0 (Log Data)
+F2 Frequency    	125 Hz
+F2 Acquire Freq 	1 bool
+F2 Pulse Length 	300 us
+F2 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F2 Range Samples	2757 smpl
+F2 Range Averaging Samples	1 smpl
+F2 LockOutIndex	0 index
+F2 Storage Format	0 (Log Data)
+F3 Frequency    	200 Hz
+F3 Acquire Freq 	1 bool
+F3 Pulse Length 	300 us
+F3 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F3 Range Samples	2757 smpl
+F3 Range Averaging Samples	1 smpl
+F3 LockOutIndex	0 index
+F3 Storage Format	0 (Log Data)
+F4 Frequency    	455 Hz
+F4 Acquire Freq 	1 bool
+F4 Pulse Length 	300 us
+F4 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F4 Range Samples	2757 smpl
+F4 Range Averaging Samples	1 smpl
+F4 LockOutIndex	0 index
+F4 Storage Format	0 (Log Data)
+---
+Phase 3
+Acquisition Period:	Oct 24, 2014 14:56:32 - Oct 24, 2014 15:06:31
+Duration	600 seconds	(0.0069 days)
+Phase Type	'NORMAL'
+Burst Interval	10 sec
+Pings Per Burst	9 pings
+Ping Period	1 sec
+Average Burst Pings	yes
+F1 Frequency    	38 Hz
+F1 Acquire Freq 	1 bool
+F1 Pulse Length 	300 us
+F1 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F1 Range Samples	529 smpl
+F1 Range Averaging Samples	1 smpl
+F1 LockOutIndex	0 index
+F1 Storage Format	1 (Avg Linear)
+F2 Frequency    	125 Hz
+F2 Acquire Freq 	1 bool
+F2 Pulse Length 	300 us
+F2 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F2 Range Samples	528 smpl
+F2 Range Averaging Samples	1 smpl
+F2 LockOutIndex	0 index
+F2 Storage Format	1 (Avg Linear)
+F3 Frequency    	200 Hz
+F3 Acquire Freq 	1 bool
+F3 Pulse Length 	300 us
+F3 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F3 Range Samples	528 smpl
+F3 Range Averaging Samples	1 smpl
+F3 LockOutIndex	0 index
+F3 Storage Format	1 (Avg Linear)
+F4 Frequency    	455 Hz
+F4 Acquire Freq 	1 bool
+F4 Pulse Length 	300 us
+F4 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F4 Range Samples	528 smpl
+F4 Range Averaging Samples	1 smpl
+F4 LockOutIndex	0 index
+F4 Storage Format	1 (Avg Linear)
+---
+Phase 4
+Acquisition Period:	Oct 24, 2014 15:06:32 - Continuous
+Duration	600 seconds	(0.0069 days)
+Phase Type	'NORMAL'
+Burst Interval	5 sec
+Pings Per Burst	1 pings
+Ping Period	5 sec
+Average Burst Pings	yes
+F1 Frequency    	38 Hz
+F1 Acquire Freq 	1 bool
+F1 Pulse Length 	300 us
+F1 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F1 Range Samples	9909 smpl
+F1 Range Averaging Samples	27 smpl
+F1 LockOutIndex	0 index
+F1 Storage Format	1 (Avg Linear)
+F2 Frequency    	125 Hz
+F2 Acquire Freq 	1 bool
+F2 Pulse Length 	300 us
+F2 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F2 Range Samples	9909 smpl
+F2 Range Averaging Samples	27 smpl
+F2 LockOutIndex	0 index
+F2 Storage Format	1 (Avg Linear)
+F3 Frequency    	200 Hz
+F3 Acquire Freq 	1 bool
+F3 Pulse Length 	300 us
+F3 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F3 Range Samples	9909 smpl
+F3 Range Averaging Samples	27 smpl
+F3 LockOutIndex	0 index
+F3 Storage Format	1 (Avg Linear)
+F4 Frequency    	455 Hz
+F4 Acquire Freq 	1 bool
+F4 Pulse Length 	300 us
+F4 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F4 Range Samples	9639 smpl
+F4 Range Averaging Samples	27 smpl
+F4 LockOutIndex	0 index
+F4 Storage Format	1 (Avg Linear)
+---------------------------------------
+Config for unit '55074' deployed 2014-10-24 14:44:40
+Version Major	3
+Version Minor	4
+Version Date	20140902   
+Unit Serial Number	55074      
+CPU	13762
+Parameter Version	2
+Instrument Type	AZFP
+DataOutput	FLASH
+SoundSpeed	1450.500000
+Acquisition Start:	Oct 24, 2014 14:44:24
+Number of phases	4
+Date span: Oct 24, 2014 14:44:24 - Oct 24, 2014 15:24:23
+---
+Phase 1
+Acquisition Period:	Oct 24, 2014 14:44:24 - Oct 24, 2014 14:59:23
+Duration	900 seconds	(0.0104 days)
+Phase Type	'NORMAL'
+Burst Interval	1 sec
+Pings Per Burst	1 pings
+Ping Period	1 sec
+Average Burst Pings	yes
+F1 Frequency    	38 Hz
+F1 Acquire Freq 	1 bool
+F1 Pulse Length 	300 us
+F1 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F1 Range Samples	528 smpl
+F1 Range Averaging Samples	1 smpl
+F1 LockOutIndex	0 index
+F1 Storage Format	0 (Log Data)
+F2 Frequency    	125 Hz
+F2 Acquire Freq 	1 bool
+F2 Pulse Length 	300 us
+F2 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F2 Range Samples	528 smpl
+F2 Range Averaging Samples	1 smpl
+F2 LockOutIndex	0 index
+F2 Storage Format	0 (Log Data)
+F3 Frequency    	200 Hz
+F3 Acquire Freq 	1 bool
+F3 Pulse Length 	300 us
+F3 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F3 Range Samples	528 smpl
+F3 Range Averaging Samples	1 smpl
+F3 LockOutIndex	0 index
+F3 Storage Format	0 (Log Data)
+F4 Frequency    	455 Hz
+F4 Acquire Freq 	1 bool
+F4 Pulse Length 	300 us
+F4 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F4 Range Samples	528 smpl
+F4 Range Averaging Samples	1 smpl
+F4 LockOutIndex	0 index
+F4 Storage Format	0 (Log Data)
+---
+Phase 2
+Acquisition Period:	Oct 24, 2014 14:59:24 - Oct 24, 2014 15:04:23
+Duration	300 seconds	(0.0035 days)
+Phase Type	'NORMAL'
+Burst Interval	1 sec
+Pings Per Burst	1 pings
+Ping Period	1 sec
+Average Burst Pings	yes
+F1 Frequency    	38 Hz
+F1 Acquire Freq 	1 bool
+F1 Pulse Length 	300 us
+F1 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F1 Range Samples	2757 smpl
+F1 Range Averaging Samples	1 smpl
+F1 LockOutIndex	0 index
+F1 Storage Format	0 (Log Data)
+F2 Frequency    	125 Hz
+F2 Acquire Freq 	1 bool
+F2 Pulse Length 	300 us
+F2 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F2 Range Samples	2757 smpl
+F2 Range Averaging Samples	1 smpl
+F2 LockOutIndex	0 index
+F2 Storage Format	0 (Log Data)
+F3 Frequency    	200 Hz
+F3 Acquire Freq 	1 bool
+F3 Pulse Length 	300 us
+F3 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F3 Range Samples	2757 smpl
+F3 Range Averaging Samples	1 smpl
+F3 LockOutIndex	0 index
+F3 Storage Format	0 (Log Data)
+F4 Frequency    	455 Hz
+F4 Acquire Freq 	1 bool
+F4 Pulse Length 	300 us
+F4 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F4 Range Samples	2757 smpl
+F4 Range Averaging Samples	1 smpl
+F4 LockOutIndex	0 index
+F4 Storage Format	0 (Log Data)
+---
+Phase 3
+Acquisition Period:	Oct 24, 2014 15:04:24 - Oct 24, 2014 15:14:23
+Duration	600 seconds	(0.0069 days)
+Phase Type	'NORMAL'
+Burst Interval	10 sec
+Pings Per Burst	9 pings
+Ping Period	1 sec
+Average Burst Pings	yes
+F1 Frequency    	38 Hz
+F1 Acquire Freq 	1 bool
+F1 Pulse Length 	300 us
+F1 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F1 Range Samples	529 smpl
+F1 Range Averaging Samples	1 smpl
+F1 LockOutIndex	0 index
+F1 Storage Format	1 (Avg Linear)
+F2 Frequency    	125 Hz
+F2 Acquire Freq 	1 bool
+F2 Pulse Length 	300 us
+F2 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F2 Range Samples	528 smpl
+F2 Range Averaging Samples	1 smpl
+F2 LockOutIndex	0 index
+F2 Storage Format	1 (Avg Linear)
+F3 Frequency    	200 Hz
+F3 Acquire Freq 	1 bool
+F3 Pulse Length 	300 us
+F3 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F3 Range Samples	528 smpl
+F3 Range Averaging Samples	1 smpl
+F3 LockOutIndex	0 index
+F3 Storage Format	1 (Avg Linear)
+F4 Frequency    	455 Hz
+F4 Acquire Freq 	1 bool
+F4 Pulse Length 	300 us
+F4 Dig. Rate    	64 kHz (0.0113 m/smpl)
+F4 Range Samples	528 smpl
+F4 Range Averaging Samples	1 smpl
+F4 LockOutIndex	0 index
+F4 Storage Format	1 (Avg Linear)
+---
+Phase 4
+Acquisition Period:	Oct 24, 2014 15:14:24 - Continuous
+Duration	600 seconds	(0.0069 days)
+Phase Type	'NORMAL'
+Burst Interval	5 sec
+Pings Per Burst	1 pings
+Ping Period	5 sec
+Average Burst Pings	yes
+F1 Frequency    	38 Hz
+F1 Acquire Freq 	1 bool
+F1 Pulse Length 	300 us
+F1 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F1 Range Samples	9909 smpl
+F1 Range Averaging Samples	27 smpl
+F1 LockOutIndex	0 index
+F1 Storage Format	1 (Avg Linear)
+F2 Frequency    	125 Hz
+F2 Acquire Freq 	1 bool
+F2 Pulse Length 	300 us
+F2 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F2 Range Samples	9909 smpl
+F2 Range Averaging Samples	27 smpl
+F2 LockOutIndex	0 index
+F2 Storage Format	1 (Avg Linear)
+F3 Frequency    	200 Hz
+F3 Acquire Freq 	1 bool
+F3 Pulse Length 	300 us
+F3 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F3 Range Samples	9909 smpl
+F3 Range Averaging Samples	27 smpl
+F3 LockOutIndex	0 index
+F3 Storage Format	1 (Avg Linear)
+F4 Frequency    	455 Hz
+F4 Acquire Freq 	1 bool
+F4 Pulse Length 	300 us
+F4 Dig. Rate    	20 kHz (0.0363 m/smpl)
+F4 Range Samples	9639 smpl
+F4 Range Averaging Samples	27 smpl
+F4 LockOutIndex	0 index
+F4 Storage Format	1 (Avg Linear)
+---------------------------------------
