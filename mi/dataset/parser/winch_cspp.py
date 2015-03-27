@@ -24,6 +24,7 @@ log = get_logger()
 from mi.core.common import BaseEnum
 from mi.core.instrument.data_particle import DataParticle
 from mi.core.exceptions import RecoverableSampleException
+from mi.core.log import get_logging_metaclass
 
 from mi.dataset.parser.common_regexes import END_OF_LINE_REGEX, \
     FLOAT_REGEX, ONE_OR_MORE_WHITESPACE_REGEX, INT_REGEX, ANY_CHARS_REGEX
@@ -52,8 +53,8 @@ class WinchCsppParserDataParticleKey(BaseEnum):
     """
     The data particle keys associated with Winch CSPP data particle parameters
     """
-    DATE = 'date'
-    TIME = 'time'
+    DATE = 'winch_date'
+    TIME = 'winch_time'
     WINCH_STATE = 'winch_state'
     WINCH_SPEED = 'winch_speed'
     WINCH_PAYOUT = 'winch_payout'
@@ -115,7 +116,6 @@ class WinchCsppDataParticle(DataParticle):
     """
     _data_particle_type = DataParticleType.WINCH_CSPP_ENG
 
-
     def _build_parsed_values(self):
         """
         Take something in the data format and turn it into
@@ -146,6 +146,8 @@ class WinchCsppParser(SimpleParser):
     Parser for Winch CSPP data.
     """
 
+    __metaclass__ = get_logging_metaclass(log_level='debug')
+
     def parse_file(self):
         """
         Parse Winch CSPP text file.
@@ -172,6 +174,7 @@ class WinchCsppParser(SimpleParser):
                 # Generate a Winch CSPP particle using the group dictionary and add it to the internal buffer
                 particle = self._extract_sample(WinchCsppDataParticle, None, match.groupdict(), time_stamp)
                 if particle is not None:
+                    log.debug('Parsed particle: %s', particle.generate_dict())
                     self._record_buffer.append(particle)
 
 
