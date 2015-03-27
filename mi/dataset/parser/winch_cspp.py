@@ -45,7 +45,7 @@ class DataParticleType(BaseEnum):
     """
     The data particle types that this parser can generate
     """
-    WINCH_CSPP = 'winch_cspp'
+    WINCH_CSPP_ENG = 'winch_cspp_eng'
 
 
 class WinchCsppParserDataParticleKey(BaseEnum):
@@ -113,7 +113,7 @@ class WinchCsppDataParticle(DataParticle):
     """
     Class for generating a Winch CSPP data particle
     """
-    _data_particle_type = DataParticleType.WINCH_CSPP
+    _data_particle_type = DataParticleType.WINCH_CSPP_ENG
 
 
     def _build_parsed_values(self):
@@ -169,7 +169,7 @@ class WinchCsppParser(SimpleParser):
                 unix_time = calendar.timegm((int(year), int(month), int(day), int(hour), int(minute), float(second)))
                 time_stamp = ntplib.system_to_ntp_time(unix_time)
 
-                # Generate a Winch CSPP particle using the winch_data_dict and add it to the internal buffer
+                # Generate a Winch CSPP particle using the group dictionary and add it to the internal buffer
                 particle = self._extract_sample(WinchCsppDataParticle, None, match.groupdict(), time_stamp)
                 if particle is not None:
                     self._record_buffer.append(particle)
